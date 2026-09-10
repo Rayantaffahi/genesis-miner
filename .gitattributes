@@ -1,0 +1,12 @@
+# Project-specific overrides
+*.jpg binary
+node_modules/* linguist-vendored
+*.bat text eol=crlf
+
+examples/site/*.html linguist-vendored
+examples/site/* linguist-vendored
+src/** linguist-detectable
+
+*.jpeg binary
+
+*.sh text eol=lf
